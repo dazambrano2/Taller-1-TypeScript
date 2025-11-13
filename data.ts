@@ -1,10 +1,58 @@
 import { Serie } from "./Serie.js";
 
 export const series: Serie[] = [
-  new Serie(1, "Breaking Bad", "AMC", 5),
-  new Serie(2, "Orange Is the New Black", "Netflix", 6),
-  new Serie(3, "Game of Thrones", "HBO", 8),
-  new Serie(4, "The Big Bang Theory", "CBS", 12),
-  new Serie(5, "Sherlock", "BBC", 4),
-  new Serie(6, "A Very English Scandal", "BBC", 2)
+  new Serie(
+    1,
+    "Breaking Bad",
+    "AMC",
+    5,
+    "Set and filmed in Albuquerque, New Mexico, the series tells the story of Walter White, a struggling and depressed high school chemistry teacher who is diagnosed with lung cancer",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Breaking_Bad_logo.svg/1920px-Breaking_Bad_logo.svg.png",
+    "https://www.amc.com/shows/breaking-bad"
+  ),
+  new Serie(
+    2,
+    "Orange Is the New Black",
+    "Netflix",
+    6,
+    "The series begins revolving around Piper Chapman, a woman in her thirties living in New York City who is sentenced to 15 months in Litchfield Penitentiary.",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Orange_is_the_new_Black_Logo.svg/1920px-Orange_is_the_new_Black_Logo.svg.png",
+    "https://www.netflix.com/title/70242311"
+  ),
+  new Serie(
+    3,
+    "Game of Thrones",
+    "HBO",
+    8,
+    "American fantasy drama television series created by David Benioff and D. B. Weiss for HBO. It is an adaptation of A Song of Ice and Fire, a series of fantasy novels by George R. R. Martin.",
+    "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
+    "https://www.hbo.com/game-of-thrones"
+  ),
+  new Serie(
+    4,
+    "The Big Bang Theory",
+    "CBS",
+    12,
+    "Leonard and Sheldon are brilliant physicists—geniuses in the laboratory but socially challenged everywhere else. Enter beautiful, street-smart neighbor Penny.",
+    "https://m.media-amazon.com/images/M/MV5BY2FmZTY5YTktOWRlYy00NmIyLWE0ZmQtZDg2YjlmMzczZDZiXkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_.jpg",
+    "https://www.cbs.com/shows/big_bang_theory"
+  ),
+  new Serie(
+    5,
+    "Sherlock",
+    "BBC",
+    4,
+    "Sherlock depicts consulting detective Sherlock Holmes solving various mysteries in modern-day London. Holmes is assisted by his flatmate and friend, Dr John Watson.",
+    "https://m.media-amazon.com/images/M/MV5BMWY3NTljMjEtYzRiMi00NWM2LTkzNjItZTVmZjE0MTdjMjJhL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTQ4NTc5OTU@._V1_.jpg",
+    "https://www.bbc.co.uk/programmes/b018ttws"
+  ),
+  new Serie(
+    6,
+    "A Very English Scandal",
+    "BBC",
+    2,
+    "A Very English Scandal is a fact-based three-part British television comedy-drama miniseries based on John Preston's book of the same name.",
+    "https://upload.wikimedia.org/wikipedia/en/9/98/A_Very_English_Scandal.png",
+    "https://www.bbc.co.uk/programmes/p065smy4"
+  )
 ];
